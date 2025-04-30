@@ -8,15 +8,11 @@ Experience CINEMATE-X live: [CINEMATE-X Web App](https://cinemate-x-unnsmqjdhd2p
 
 
 
-# Preview in LIGHT MODE
-![CineMate X Preview](./assets/lightmode.png)
 # Preview in DARK MODE
 ![CineMate X Preview](./assets/darkmode.png)
 # Your Searched Movie is appear here.
 ![CineMate X Preview](./assets/searched_movie.png)
-# CINEMATE-X Recommend You 5 Similar movies.
-# You can Watch the trailer of each recommended movie by clicking watch trailer button below
-![CineMate X Preview](./assets/fiveRecommendedMovies.png)
+
 # You redirect to youtube now you can watch your favorite movie's trailer in just few clicks.
 ![CineMate X Preview](./assets/TrailerYT.png)
 
