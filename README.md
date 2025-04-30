@@ -24,6 +24,5 @@ Experience **CINEMATE-X live** : [CINEMATE-X Web App](https://cinemate-x-unnsmqj
 
 📧 Contact
 For feedback, suggestions, or queries, reach out at:<br>
-📩 Email: your_email@example.com<br>
-🔗 GitHub: Sachinsstac
+📩 Email : sachin.962545@gmail.com
 
