@@ -1,6 +1,10 @@
-# 🍿 CineMate X
+🍿 CINEMATE-X 🎥
+A Content-Based Movie Recommendation System
 
-**CineMate X** is a sleek and intelligent content-based movie recommendation system powered by Streamlit and The Movie Database (TMDB) API. Users can select a movie and instantly get 5 visually similar recommendations — complete with posters and trailers!
+**CineMate X** is a sleek, user-friendly movie recommendation system designed to enhance your viewing experience. Leveraging the power of TMDB's API, CINEMATE-X suggests movies based on your preferences, complete with posters, trailers, and detailed information.
+
+Experience CINEMATE-X live: CINEMATE-X Web App
+
 
 
 # Preview in LIGHT MODE
@@ -16,5 +20,13 @@
 ![CineMate X Preview](./assets/TrailerYT.png)
 
 
-
 # Made with ❤️ by Sachin
+
+
+
+
+📧 Contact
+For feedback, suggestions, or queries, reach out at:
+📩 Email: your_email@example.com
+🔗 GitHub: Sachinsstac
+
