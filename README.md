@@ -4,7 +4,11 @@
 
 
 # Preview in DARK MODE
+![CineMate X Preview](./assets/lightmode.png)
 ![CineMate X Preview](./assets/darkmode.png)
+![CineMate X Preview](./assets/searched_movie.png)
+![CineMate X Preview](./assets/fiveRecommendedMovies.png)
+![CineMate X Preview](./assets/TrailerYT.png)
 
 
 
