@@ -23,7 +23,7 @@ Experience CINEMATE-X live: [CINEMATE-X Web App](https://cinemate-x-unnsmqjdhd2p
 
 
 📧 Contact
-For feedback, suggestions, or queries, reach out at:
-📩 Email: your_email@example.com
+For feedback, suggestions, or queries, reach out at:<br>
+📩 Email: your_email@example.com<br>
 🔗 GitHub: Sachinsstac
 
