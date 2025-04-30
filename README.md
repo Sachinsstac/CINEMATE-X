@@ -10,7 +10,7 @@
 # Your Searched Movie is appear here.
 ![CineMate X Preview](./assets/searched_movie.png)
 # CINEMATE-X Recommend You 5 Similar movies.
-You can Watch the trailer of each recommended movie by clicking watch trailer button below
+# You can Watch the trailer of each recommended movie by clicking watch trailer button below
 ![CineMate X Preview](./assets/fiveRecommendedMovies.png)
 # You direct to youtube now you can watch your favorite movie's trailer in just few clicks.
 ![CineMate X Preview](./assets/TrailerYT.png)
