@@ -5,9 +5,9 @@ import pickle
 import pandas as pd
 import requests
 import time
-import os
 import gdown
 from dotenv import load_dotenv
+import os
 
 # Load environment variables
 load_dotenv()
