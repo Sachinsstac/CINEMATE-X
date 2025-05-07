@@ -201,6 +201,7 @@ movie_list = movies["title"].values
 movie_name = st.selectbox("🎥 Search and Select a Movie", movie_list)
 
 if st.button("🍿 Recommend"):
+    
     # Popcorn Loader
     st.markdown("""
         <style>
@@ -315,7 +316,23 @@ if st.button("🍿 Recommend"):
                         ">
                             ▶ Watch Trailer
                         </a>
-                    </div>
+                    </div><br><br><br>
                 """, unsafe_allow_html=True)
             else:
                 st.caption("🚫 Trailer not available")
+
+
+# Footer
+st.markdown("""
+    <style>
+        .footer {
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            color: black;
+        }
+    </style>
+    <h4 class="footer"><i>
+        Made with ❤️ by Sachin
+    </i></h4>
+""", unsafe_allow_html=True)
