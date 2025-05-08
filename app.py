@@ -9,6 +9,13 @@ import gdown
 from dotenv import load_dotenv
 import os
 
+import base64
+
+def get_base64_img(image_path):
+    with open(image_path, "rb") as img_file:
+        return base64.b64encode(img_file.read()).decode()
+
+
 # Load environment variables
 load_dotenv()
 api_key = os.getenv("TMDB_API_KEY")
@@ -272,7 +279,7 @@ if st.button("🍿 Recommend"):
         </div>
     """, unsafe_allow_html=True)
 
-    time.sleep(1.5)
+    time.sleep(0.1)
 
     # Show the searched movie
     searched_movie_id = movies[movies['title'] == movie_name].iloc[0].movie_id
@@ -316,23 +323,42 @@ if st.button("🍿 Recommend"):
                         ">
                             ▶ Watch Trailer
                         </a>
-                    </div><br><br><br>
+                    </div> <br><br><br><br>
                 """, unsafe_allow_html=True)
             else:
                 st.caption("🚫 Trailer not available")
 
 
-# Footer
-st.markdown("""
+# Encode and embed images as base64
+git_logo_base64 = get_base64_img("assets/gitlogo.png")
+insta_logo_base64 = get_base64_img("assets/instalogo.png")
+
+# Footer with clickable logos
+st.markdown(f"""
     <style>
-        .footer {
-            bottom: 0;
+        .footer {{
+            
+        
             width: 100%;
             text-align: center;
-            color: black;
-        }
+            margin-top: 50px;
+        }}
+        .footer img {{
+            margin: 0 10px;
+            vertical-align: middle;
+        }}
     </style>
-    <h4 class="footer"><i>
-        Made with ❤️ by Sachin
-    </i></h4>
+
+    <div class="footer">
+        <h4><i>Made with ❤️ by Sachin</i></h4>
+       <p> <a href="https://github.com/Sachinsstac" target="_blank">
+            <img src="data:image/png;base64,{git_logo_base64}" width="30" height="30" alt="GitHub">
+        </a>|
+        <a href="https://www.instagram.com/sachiiiiin.xx03" target="_blank">
+            <img src="data:image/png;base64,{insta_logo_base64}" width="30" height="30" alt="Instagram">
+        </a> </p>
+    </div>
 """, unsafe_allow_html=True)
+
+
+# # Run the app with: streamlit run app.py
