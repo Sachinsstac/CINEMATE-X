@@ -5,7 +5,13 @@ A Content-Based Movie Recommendation System
 
 Experience **CINEMATE-X live** : [CINEMATE-X Web App](https://cinemate-x-unnsmqjdhd2pylereihyaj.streamlit.app/)
 
+## Features
+- Movie recommendation system
+- TMDB API integration
+- Clean UI with Streamlit
 
+## Tech Stack
+Python, Pandas, Streamlit, TMDB API
 
 
 # Preview in DARK MODE
